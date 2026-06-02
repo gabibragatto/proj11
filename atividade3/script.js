@@ -10,12 +10,12 @@ for (let i = 0; i < 9; i++) {
 }
 
 // mostra apenas os menores de idade
-console.log("Pessoas menores de idade:");
+alert("Pessoas menores de idade:");
 // percorre os vetores
 for (let i = 0; i < 9; i++) {
     // verifica se a idade é menor que 18
     if (idades[i] < 18) {
         // mostra nome e idade
-        console.log(`Nome: ${nomes[i]} | Idade: ${idades[i]}`);
+        alert(`Nome: ${nomes[i]} | Idade: ${idades[i]}`);
     }
 }

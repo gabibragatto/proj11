@@ -10,9 +10,9 @@ for (let i = 0; i < 7; i++) {
 }
 
 // mostra os nomes na ordem inversa
-console.log("Nomes na ordem inversa:");
+alert("Nomes na ordem inversa:");
 
 // percorre o vetor de trás para frente
 for (let i = 6; i >= 0; i--) {
-    console.log(nomes[i]);
+    alert(nomes[i]);
 }

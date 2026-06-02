@@ -37,7 +37,7 @@ for (let i = 0; i < 5; i++) {
 }
 
 // mostra os valores em comum
-console.log("Elementos em comum:");
+alert("Elementos em comum:");
 for (let i = 0; i < posicao; i++) {
-    console.log(intersecao[i]);
+    alert(intersecao[i]);
 }
